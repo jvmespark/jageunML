@@ -4,7 +4,7 @@ import onnx
 from onnx import numpy_helper, TensorProto
 import numpy as np
 import torch
-from helios.ir import Graph, Node, OpType, TensorType, GraphBuilder
+from jageun.ir import Graph, Node, OpType, TensorType, GraphBuilder
 
 ONNX_OP_MAP = {
     "Gemm": OpType.MATMUL,
